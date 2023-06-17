@@ -13,6 +13,7 @@ const schema = new mongoose.Schema(
 		columnId: {
 			type: mongoose.Schema.Types.ObjectId,
 			ref: 'Column',
+			required: true,
 		},
 	},
 	{ timestamps: true },

@@ -19,6 +19,7 @@ const schema = new mongoose.Schema(
 		boardId: {
 			type: mongoose.Schema.Types.ObjectId,
 			ref: 'Board',
+			required: true,
 		},
 	},
 	{ timestamps: true },
